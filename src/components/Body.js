@@ -80,14 +80,14 @@ function Body() {
                 </p>
               </div>
               <div className="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
-                <p>Want to dig deeper into Tailwind?</p>
+                <p>Hey, things will just get better soon!</p>
                 <p>
                   <a
                     href="https://tailwindcss.com/docs"
                     className="text-cyan-600 hover:text-cyan-700"
                   >
                     {" "}
-                    Read the docs &rarr;{" "}
+                    Visit tailwind docs &rarr;{" "}
                   </a>
                 </p>
               </div>
