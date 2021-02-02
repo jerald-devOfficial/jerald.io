@@ -1,0 +1,21 @@
+/* ./src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Text+Me+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bar{
+    background-color: #353b48;
+    display: block;
+    height: 5px;
+    border: 1px solid rgba(0,0,0,0,.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+    height: 4px;
+    float: left;
+    background: #2187e7;
+}
