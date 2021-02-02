@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Blog with MERN Stack",
+  "description": "Personal Website",
   "main": "index.js",
   "engines": {
     "node": "15.2.1",
