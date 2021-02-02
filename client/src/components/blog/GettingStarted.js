@@ -24,7 +24,7 @@ function GettingStarted() {
             </a>
           </div>
           <LazyLoadImage
-            className="w-full object-cover lg:rounded px-4"
+            className="w-full object-cover lg:rounded px-4 lg:px-0"
             src={content.blog.main.img.img}
             alt={content.blog.main.img.alt}
           />
