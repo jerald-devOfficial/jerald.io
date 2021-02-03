@@ -127,7 +127,7 @@ function TailwindAndReactSetup() {
             <p className="pb-2">
               {content.blog.tailwindcssandreact.content[15]}
             </p>
-            <div class="my-4 rounded-xl overflow-hidden bg-gray-800  text-green-700 py-2">
+            <div class="my-4 rounded-xl overflow-x-auto bg-gray-800  text-green-700 py-2">
               <pre class="language-diff-json">
                 <code class="language-diff-json">
                   <div>
@@ -218,7 +218,7 @@ function TailwindAndReactSetup() {
             <p className="pb-2">
               {content.blog.tailwindcssandreact.content[16]}
             </p>
-            <div class="mt-4 mb-10 rounded-xl overflow-hidden bg-gray-800  text-green-700 py-2 pl-6">
+            <div class="mt-4 mb-10 rounded-xl overflow-x-auto bg-gray-800  text-green-700 py-2 pl-6">
               <pre class="language-js ">
                 <code class="language-js">
                   <span class="token comment text-gray-500">
@@ -272,7 +272,7 @@ function TailwindAndReactSetup() {
             <p className="pb-6">
               {content.blog.tailwindcssandreact.content[18]}
             </p>
-            <div class="mb-4 rounded-xl overflow-hidden bg-gray-800 pl-2 py-2 text-green-700">
+            <div class="mb-4 rounded-xl overflow-x-auto bg-gray-800 pl-2 py-2 text-green-700">
               <pre class="language-shell">
                 <code class="language-shell">
                   npx tailwindcss init --full -p
