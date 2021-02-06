@@ -34,6 +34,23 @@ function GettingStarted() {
             <p className="pb-6">{content.blog.main.content[0]}</p>
             <p className="pb-6">{content.blog.main.content[1]}</p>
             <p className="pb-6">{content.blog.main.content[2]}</p>
+            <p className="pb-6">
+              {content.blog.main.content[3]}{" "}
+              <a href="https://goalkicker.com/JavaScriptBook/">
+                <b>Notes for Professional</b>
+              </a>
+            </p>
+
+            <p className="pb-6">{content.blog.main.content[4]}</p>
+            <p className="pb-6">{content.blog.main.content[5]}</p>
+            <p className="pb-6">{content.blog.main.content[6]}</p>
+            <p className="pb-6">{content.blog.main.content[7]}</p>
+            <p className="pb-6">
+              {content.blog.main.content[8]}{" "}
+              <a href="/portfolio">
+                <b>Portfolio.</b>
+              </a>
+            </p>
           </div>
           <Editor />
         </div>

@@ -45,6 +45,13 @@ function Intro() {
               wrapper="p"
             />
           </h1>
+          <button
+            className={` animate-bounce bg-indigo-500 px-8 py-2 text-lg uppercase text-white rounded-lg mt-10 hover:bg-indigo-300 transform  ${
+              animated ? "translate-y-0" : styleTranslate
+            } ${transition(3500)}`}
+          >
+            Learn more
+          </button>
         </div>
       </div>
     </div>

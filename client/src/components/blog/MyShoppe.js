@@ -61,6 +61,8 @@ function MyShoppe() {
               </pre>
             </div>
             <p className="pb-6">{content.blog.myshoppe.content[5]}</p>
+            <p className="pb-6">{content.blog.myshoppe.content[6]}</p>
+            <p className="pb-6">{content.blog.myshoppe.content[7]}</p>
           </div>
           <Editor />
         </div>

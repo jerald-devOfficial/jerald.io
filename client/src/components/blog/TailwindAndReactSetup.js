@@ -537,6 +537,9 @@ function TailwindAndReactSetup() {
             <p className="pb-6">
               {content.blog.tailwindcssandreact.content[29]}
             </p>
+            <p className="pb-6">
+              {content.blog.tailwindcssandreact.content[30]}
+            </p>
           </div>
           <Editor />
         </div>
