@@ -3,6 +3,7 @@ export default {
     logo: ["JERALD", "IO"],
   },
   portfolio: {
+    modal: process.env.PUBLIC_URL + "/assets/modal.jpg",
     img: process.env.PUBLIC_URL + "/assets/portfolio.png",
     text: ["Hey!", "It's me, ", "Jerald."],
     typical: [
@@ -12,6 +13,33 @@ export default {
       3000,
       "I'm a C/C++ programmer. ",
       3000,
+    ],
+  },
+  modal: {
+    url: process.env.PUBLIC_URL + "/assets/resume_2021.png",
+    img: {
+      img: process.env.PUBLIC_URL + "/assets/modal_profile.png",
+      alt: "Modal Profile Picture",
+    },
+    skills: [
+      "C",
+      "C++",
+      "PHP",
+      "JSON",
+      "HTML5",
+      "CSS3",
+      "SASS",
+      "Tailwindcss",
+      "Materializecss",
+      "Material-UI",
+      "Bootstrap 4+",
+      "NodeJS",
+      "ReactJS",
+      "EJS",
+      "ExpressJS",
+      "VanillaJS",
+      "jQuery",
+      "npm",
     ],
   },
   stack: {

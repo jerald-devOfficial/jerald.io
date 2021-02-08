@@ -11,7 +11,7 @@ function Blog() {
   return (
     <div className="max-w-screen-lg mx-auto mt-20">
       <div className="mt-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-16">
+        <div className="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-5 gap-4 mb-16">
           <div className="mb-4 lg:mb-0  p-4 lg:p-0 w-full md:col-span-2 lg:col-span-3 relative rounded ">
             <LazyLoadImage
               className="rounded-md object-cover w-full h-64"
