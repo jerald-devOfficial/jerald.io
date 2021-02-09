@@ -8,7 +8,7 @@ function Editor() {
     <div className="w-full lg:w-1/4 m-auto mt-12 max-w-screen-sm">
       <div className="p-4 border-t border-b md:border md:rounded">
         <div className="flex py-2">
-          <img
+          <LazyLoadImage
             src={content.blog.editor}
             className="h-10 w-10 rounded-full mr-2 object-cover"
           />
