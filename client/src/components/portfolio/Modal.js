@@ -24,8 +24,10 @@ function Modal({ showModal, setShowModal }) {
     config: {
       duration: 250,
     },
-    opacity: showModal ? 0 : 1,
-    transform: showModal ? `translateY(-100%)` : `translateY(0%)`,
+    // opacity: showModal ? 0 : 1,
+    // transform: showModal ? `translateY(-100%)` : `translateY(0%)`,
+    opacity: showModal ? 1 : 0,
+    transform: showModal ? `translateY(0%)` : `translateY(-100%)`,
   });
 
   // click anywhere to close
@@ -144,38 +146,14 @@ function Modal({ showModal, setShowModal }) {
                     <span class="tracking-wide text-green-500">About</span>
                   </div>
                   <div class="text-gray-700">
-                    <div class="grid md:grid-cols-2 text-sm">
-                      <div class="grid grid-cols-2">
-                        <div class="px-4 py-2 font-semibold">First Name</div>
-                        <div class="px-4 py-2">Jerald</div>
+                    <div class="grid grid-cols-5 text-sm">
+                      <div class="col-span-2 grid grid-cols-2">
+                        <div class="pl-4 pr-2 py-2 font-semibold">Name</div>
+                        <div class="pl-2 py-2">Jerald Baroro</div>
                       </div>
-                      <div class="grid grid-cols-2">
-                        <div class="px-4 py-2 font-semibold">Last Name</div>
-                        <div class="px-4 py-2">Baroro</div>
-                      </div>
-                      <div class="grid grid-cols-2">
-                        <div class="px-4 py-2 font-semibold">Gender</div>
-                        <div class="px-4 py-2">Male</div>
-                      </div>
-                      <div class="grid grid-cols-2">
-                        <div class="px-4 py-2 font-semibold">Contact No.</div>
-                        <div class="px-4 py-2">+639667652125</div>
-                      </div>
-                      <div class="grid grid-cols-2">
-                        <div class="px-4 py-2 font-semibold">
-                          Current Address
-                        </div>
-                        <div class="px-4 py-2">Tubod, Iligan City</div>
-                      </div>
-                      <div class="grid grid-cols-2">
-                        <div class="px-4 py-2 font-semibold">
-                          Permanant Address
-                        </div>
-                        <div class="px-4 py-2">Mabolo, Cebu City</div>
-                      </div>
-                      <div class="grid grid-cols-2">
-                        <div class="px-4 py-2 font-semibold">Email.</div>
-                        <div class="px-4 py-2">
+                      <div class="col-span-3 grid grid-cols-3">
+                        <div class="pl-4 py-2 font-semibold">Email.</div>
+                        <div class="py-2 col-span-2">
                           <a
                             class="text-blue-800"
                             href="mailto:spaueOfficial@gmail.com"
@@ -184,9 +162,63 @@ function Modal({ showModal, setShowModal }) {
                           </a>
                         </div>
                       </div>
-                      <div class="grid grid-cols-2">
-                        <div class="px-4 py-2 font-semibold">Birthday</div>
-                        <div class="px-4 py-2">Jan 12, 1996</div>
+                      <div class="col-span-2 grid grid-cols-2">
+                        <div class="pl-4 pr-2 py-2 font-semibold">
+                          Contact No.
+                        </div>
+                        <div class="pl-2 py-2">+639667652125</div>
+                      </div>
+                      <div class="col-span-3 grid grid-cols-3">
+                        <div class="pl-4 py-2 font-semibold">LinkedIn</div>
+                        <div class="py-2 col-span-2">
+                          <a
+                            class="text-blue-800"
+                            href="mailto:spaueOfficial@gmail.com"
+                          >
+                            linkedin.com/in/jerald-baroro-562aab20a/
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-span-2 grid grid-cols-2">
+                        <div class="pl-4 pr-2 py-2 font-semibold">
+                          Current Address
+                        </div>
+                        <div class="pl-2 py-2">Mabolo, Cebu City</div>
+                      </div>
+                      <div class="col-span-3 grid grid-cols-3">
+                        <div class="pl-4 py-2 font-semibold col-span-1">
+                          GitHub
+                        </div>
+                        <div class="py-2 col-span-2">
+                          <a
+                            class="text-blue-800"
+                            href="mailto:spaueOfficial@gmail.com"
+                          >
+                            github.com/jerald-devOfficial
+                          </a>
+                        </div>
+                      </div>
+                      {/* <div class="col-span-2">
+                        <div class="pl-4 pr-2 py-2 font-semibold">
+                          Permanant Address
+                        </div>
+                        <div class="pl-4 pr-2 py-2">Mabolo, Cebu City</div>
+                      </div> */}
+
+                      <div class="col-span-2 grid grid-cols-2">
+                        <div class="pl-4 pr-2 py-2 font-semibold">Birthday</div>
+                        <div class="pl-2 py-2">Jan 12, 1996</div>
+                      </div>
+                      <div class="col-span-3 grid grid-cols-3">
+                        <div class="pl-4 py-2 font-semibold">Twitter</div>
+                        <div class="py-2 col-span-2">
+                          <a
+                            class="text-blue-800"
+                            href="mailto:spaueOfficial@gmail.com"
+                          >
+                            twitter.com/spaueOfficial
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -223,13 +255,21 @@ function Modal({ showModal, setShowModal }) {
                       <ul class="list-inside space-y-2">
                         <li>
                           <div class="text-teal-600">
+                            JavaScript Developer at Panteum Foundation
+                          </div>
+                          <div class="text-gray-500 text-xs">
+                            March 2021 - March 2021
+                          </div>
+                        </li>
+                        {/* <li>
+                          <div class="text-teal-600">
                             Process Executive at Cognizant Philippines
                           </div>
                           <div class="text-gray-500 text-xs">
                             Nov 2019 - Jan 2021
                           </div>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <div class="text-teal-600">
                             Customer Service Representative at Teleperformance,
                             IT Park
@@ -237,7 +277,7 @@ function Modal({ showModal, setShowModal }) {
                           <div class="text-gray-500 text-xs">
                             July 2019 - October 2019
                           </div>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                     <div>
@@ -288,11 +328,11 @@ function Modal({ showModal, setShowModal }) {
                     <CodeIcon />
                     <span class="tracking-wide text-green-500">Skills</span>
                   </div>
-                  <div class="text-gray-700 grid grid-cols-1">
+                  <div class="text-gray-700">
                     <ul>
                       {content.modal.skills.map((skills, index) => (
-                        <li key={index} className="inline pr-2">
-                          <span className="bg-gray-200 py-0 px-2 rounded text-green-500 text-sm">
+                        <li key={index} className="inline-block pr-2">
+                          <span className="bg-gray-200 py-0 px-2 rounded text-black font-bold text-sm">
                             {skills}
                           </span>
                         </li>

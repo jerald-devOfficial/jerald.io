@@ -16,7 +16,7 @@ export default {
     ],
   },
   modal: {
-    url: process.env.PUBLIC_URL + "/assets/resume_2021.png",
+    url: process.env.PUBLIC_URL + "/assets/resume_april2021-min.pdf",
     img: {
       img: process.env.PUBLIC_URL + "/assets/modal_profile.png",
       alt: "Modal Profile Picture",
@@ -40,6 +40,13 @@ export default {
       "VanillaJS",
       "jQuery",
       "npm",
+      "PugJS",
+      "RestfulAPIs",
+      "Adobe Photoshop CC",
+      "Postman",
+      "Linux",
+      "MongoDB",
+      "NoSQL",
     ],
   },
   stack: {

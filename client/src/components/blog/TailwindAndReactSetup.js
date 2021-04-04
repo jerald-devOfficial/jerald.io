@@ -9,7 +9,7 @@ function TailwindAndReactSetup() {
     document.title = content.blog.tailwindcssandreact.head;
   }, []);
   return (
-    <div className="max-w-screen-lg mx-auto mt-20">
+    <div className="max-w-screen-lg mx-auto mt-20 flex-grow">
       <div className="mt-12">
         <div className="mb-4 md:mb-0 w-full mx-auto relative">
           <div className="px-4 lg:px-0">
