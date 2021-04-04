@@ -261,14 +261,14 @@ function Modal({ showModal, setShowModal }) {
                             March 2021 - March 2021
                           </div>
                         </li>
-                        {/* <li>
+                        <li>
                           <div class="text-teal-600">
                             Process Executive at Cognizant Philippines
                           </div>
                           <div class="text-gray-500 text-xs">
                             Nov 2019 - Jan 2021
                           </div>
-                        </li> */}
+                        </li>
                         {/* <li>
                           <div class="text-teal-600">
                             Customer Service Representative at Teleperformance,
