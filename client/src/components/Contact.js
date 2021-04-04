@@ -46,7 +46,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 py-6 px-8 sm:py-12">
+    <div className="flex-grow bg-gray-100 py-6 px-8 sm:py-12">
       <div className="max-w-screen-xl px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto text-black-900 rounded-lg shadow-lg bg-white mt-16 sm:mt-13">
         <ContactTemplate />
         <div>

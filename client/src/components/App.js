@@ -13,7 +13,7 @@ import TailwindAndReactSetup from "./blog/TailwindAndReactSetup";
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div class="flex flex-col min-h-screen">
         <Header />
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
