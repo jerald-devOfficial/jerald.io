@@ -24,10 +24,10 @@ function Modal({ showModal, setShowModal }) {
     config: {
       duration: 250,
     },
-    opacity: showModal ? 0 : 1,
-    transform: showModal ? `translateY(-100%)` : `translateY(0%)`,
-    // opacity: showModal ? 1 : 0,
-    // transform: showModal ? `translateY(0%)` : `translateY(-100%)`,
+    // opacity: showModal ? 0 : 1,
+    // transform: showModal ? `translateY(-100%)` : `translateY(0%)`,
+    opacity: showModal ? 1 : 0,
+    transform: showModal ? `translateY(0%)` : `translateY(-100%)`,
   });
 
   // click anywhere to close
@@ -146,10 +146,12 @@ function Modal({ showModal, setShowModal }) {
                     <span class="tracking-wide text-green-500">About</span>
                   </div>
                   <div class="text-gray-700">
-                    <div class="grid grid-cols-5 text-sm">
-                      <div class="col-span-2 grid grid-cols-2">
+                    <div class="grid md:grid-cols-5 text-sm">
+                      <div class="md:col-span-2 col-span-3 grid md:grid-cols-2 grid-cols-3">
                         <div class="pl-4 pr-2 py-2 font-semibold">Name</div>
-                        <div class="pl-2 py-2">Jerald Baroro</div>
+                        <div class="pl-2 py-2 md:col-span-1 col-span-2">
+                          Jerald Baroro
+                        </div>
                       </div>
                       <div class="col-span-3 grid grid-cols-3">
                         <div class="pl-4 py-2 font-semibold">Email.</div>
@@ -162,11 +164,13 @@ function Modal({ showModal, setShowModal }) {
                           </a>
                         </div>
                       </div>
-                      <div class="col-span-2 grid grid-cols-2">
+                      <div class="md:col-span-2 col-span-3 grid md:grid-cols-2 grid-cols-3">
                         <div class="pl-4 pr-2 py-2 font-semibold">
                           Contact No.
                         </div>
-                        <div class="pl-2 py-2">+639667652125</div>
+                        <div class="pl-2 py-2 md:col-span-1 col-span-2">
+                          +639667652125
+                        </div>
                       </div>
                       <div class="col-span-3 grid grid-cols-3">
                         <div class="pl-4 py-2 font-semibold">LinkedIn</div>
@@ -179,11 +183,13 @@ function Modal({ showModal, setShowModal }) {
                           </a>
                         </div>
                       </div>
-                      <div class="col-span-2 grid grid-cols-2">
+                      <div class="md:col-span-2 col-span-3 grid md:grid-cols-2 grid-cols-3">
                         <div class="pl-4 pr-2 py-2 font-semibold">
                           Current Address
                         </div>
-                        <div class="pl-2 py-2">Mabolo, Cebu City</div>
+                        <div class="pl-2 py-2 md:col-span-1 col-span-2">
+                          Mabolo, Cebu City
+                        </div>
                       </div>
                       <div class="col-span-3 grid grid-cols-3">
                         <div class="pl-4 py-2 font-semibold col-span-1">
@@ -205,9 +211,11 @@ function Modal({ showModal, setShowModal }) {
                         <div class="pl-4 pr-2 py-2">Mabolo, Cebu City</div>
                       </div> */}
 
-                      <div class="col-span-2 grid grid-cols-2">
+                      <div class="md:col-span-2 col-span-3 grid md:grid-cols-2 grid-cols-3">
                         <div class="pl-4 pr-2 py-2 font-semibold">Birthday</div>
-                        <div class="pl-2 py-2">Jan 12, 1996</div>
+                        <div class="pl-2 py-2 md:col-span-1 col-span-2">
+                          Jan 12, 1996
+                        </div>
                       </div>
                       <div class="col-span-3 grid grid-cols-3">
                         <div class="pl-4 py-2 font-semibold">Twitter</div>
@@ -229,7 +237,7 @@ function Modal({ showModal, setShowModal }) {
 
                 {/* <!-- Experience and education --> */}
                 <div class="bg-white p-3 shadow-sm rounded-sm">
-                  <div class="grid grid-cols-2">
+                  <div class="grid md:grid-cols-2">
                     <div>
                       <div class="flex items-center space-x-2 font-semibold text-gray-900 leading-8 mb-3">
                         <span clas="text-green-500">

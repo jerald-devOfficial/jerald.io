@@ -85,8 +85,10 @@ function TailwindAndReactSetup() {
             <div class="mb-4 rounded-xl overflow-x-auto bg-gray-800 px-2 py-2 text-green-700">
               <pre class="language-shell">
                 <code class="language-shell">
-                  npm install tailwindcss@npm:@tailwindcss/postcss7-compat
-                  @tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+                  <span>
+                    npm install tailwindcss@npm:@tailwindcss/postcss7-compat
+                    @tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+                  </span>
                 </code>
               </pre>
             </div>
